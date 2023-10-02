@@ -14,7 +14,7 @@ https://github.com/Alex386386/brand_scrapy_parser
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git@github.com:Alex386386/scrapy_parser_pep.git
+git@github.com:Alex386386/brand_scrapy_parser.git
 ```
 
 ```
