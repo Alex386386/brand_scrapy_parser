@@ -3,13 +3,14 @@ import os
 from datetime import datetime
 from typing import Any
 from urllib.parse import urljoin
-from twisted.python.failure import Failure
+
 import scrapy
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
+from twisted.python.failure import Failure
 
 from maksavit_parser.items import ProductInfoParserItem
 from maksavit_parser.settings import PRODUCT_SPIDER_NAME
